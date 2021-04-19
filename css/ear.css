@@ -1,0 +1,48 @@
+/*CSS to animate the brain svg*/
+
+/* Ear animation */
+#ear path:nth-child(1){
+  animation-name: hideshow;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+}
+
+#ear path:nth-child(2){
+  animation-name: hideshow;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+}
+
+#ear path:nth-child(3){
+  stroke-dasharray: 1895.787;
+  stroke-dashoffset: 1895.787;
+  animation:  line-anim 1s ease forwards 0s;
+}
+
+#ear path:nth-child(4){
+  stroke-dasharray: 1895.787;
+  stroke-dashoffset: 1895.787;
+  animation:  line-anim 1s ease forwards 0.5s;
+}
+
+#ear path:nth-child(5){
+  stroke-dasharray: 1895.787;
+  stroke-dashoffset: 1895.787;
+  animation:  line-anim 1s ease forwards 1s;
+}
+
+@keyframes line-anim{
+  to{
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes hideshow {
+    0% { opacity: 0; }
+    25% { opacity: 0; }
+    50% { opacity: 0; }
+    75% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
