@@ -17,7 +17,7 @@
 
 #ear path:nth-child(1){
   stroke-dasharray: 18950.787;
-  animation:  line-anim 4s ease forwards -1s;
+  animation:  line-anim 4s ease forwards 0s;
 }
 
 /*#ear path:nth-child(2){
