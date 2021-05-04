@@ -53,16 +53,6 @@ a:hover {
   text-align: center;
 }
 
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #fff;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #333;
-  border: 0.05rem solid #333;
-}
-
 .cover-container {
   max-width: 56rem;
 }
@@ -93,6 +83,7 @@ a:hover {
 
 .nav-masthead .nav-link {
   padding: .25rem 0;
+  font-size: 1.5rem;
   font-weight: 700;
   color: rgba(30, 30, 30, .8);
   background-color: transparent;
@@ -114,35 +105,11 @@ a:hover {
 }
 
 @media (min-width: 48em) {
-  .masthead-brand {
+  .nav-masthead {
     float: left;
   }
-  .nav-masthead {
-    float: right;
-  }
 }
 
-ul {
-  padding: 0pt;
-  margin: 0pt;
-  list-style-type: none;
-  list-style-position: left;
-  vertical-align: middle;
-  display: table-cell;
-}
-
-li {
-  text-align: left;
-}
-
-.wrap {
-  display: table;
-}
-
-.wrap img {
-  display: table-cell;
-  vertical-align: middle;
-}
 /*
  * Cover
  */
@@ -152,10 +119,4 @@ li {
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
-}
-/*
- * Footer
- */
-.mastfoot {
-  color: rgba(30, 30, 30, 0.5);
 }

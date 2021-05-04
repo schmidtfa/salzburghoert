@@ -15,28 +15,18 @@
   animation-delay: 0s;
 }*/
 
-#ear path:nth-child(1){
-  stroke-dasharray: 18950.787;
+#ear path{
+  stroke-dasharray: 15430.090;
+  stroke-dashoffset: 15430.090;
   animation:  line-anim 4s ease forwards -1s;
 }
 
-/*#ear path:nth-child(2){
-  stroke-dasharray: 18950.787;
-  animation: line-anim 6s ease forwards 2s;
-}*/
-
-/*#ear path:nth-child(5){
-  stroke-dasharray: 1895.787;
-  stroke-dashoffset: 1895.787;
-  animation:  line-anim 1s ease forwards 1s;
-}*/
-
 @keyframes line-anim{
   from {
-    stroke-dashoffset: -18950.787;
+    stroke-dashoffset: 15430.090;
   }
   to{
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 30860.180;
   }
 }
 
